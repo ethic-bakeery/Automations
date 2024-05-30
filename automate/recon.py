@@ -2,7 +2,7 @@ import shodan
 import json
 
 # Your Shodan API key
-API_KEY = 'MqOClrEUVkOoydQ3ZRUygMIdUf7RaRvf'
+API_KEY = ''
 
 # Initialize the Shodan client
 api = shodan.Shodan(API_KEY)
